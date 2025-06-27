@@ -25,9 +25,8 @@ else:
 
 # HCO Process
 try:
-    # dnb_tst_path, dnb_enr_path, base_bucket, dnb_enr_prefix = Enriched(sys.argv).get_dnb_enr_args()
-    # log.info("Read data from Trusted Layer")
-    dnb_tst_path = ''
+    dnb_tst_path, dnb_enr_path, base_bucket, dnb_enr_prefix = Enriched(sys.argv).get_dnb_enr_args()
+    log.info("Read data from Trusted Layer")
     hco_df = Data.read('file', dnb_tst_path)
 
     log.info("Original Schema:")

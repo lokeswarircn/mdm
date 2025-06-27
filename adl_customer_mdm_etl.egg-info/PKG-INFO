@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: adl-customer-mdm-etl
+Version: 0.1.0
+Home-page: https://alconprod.atlassian.net/wiki/spaces/MASTER/pages/5863768311/Core+Architecture
+Author: Raghavendran Ravichandran
+Author-email: Your Name <you@example.com>
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: awswrangler<4.0.0,>=3.11.0
+Requires-Dist: boto3<2.0.0,>=1.37.5
+Requires-Dist: pandas<3.0.0,>=2.2.3
+Dynamic: author
+Dynamic: home-page
+Dynamic: requires-python
